@@ -20,15 +20,8 @@ namespace ArrayMinElement
                         numbers[i] = Convert.ToInt32(Console.ReadLine());
                     }
 
-                    int min = numbers[0];
-
-                    for (int i = 0; i < n; i++)
-                    {
-                        if (min > numbers[i])
-                        {
-                            min = numbers[i];
-                        }
-                    }
+                    int min = Helpers.GetMinElement(numbers);
+                    
                     Console.WriteLine("The minimum is: {0}", min);
                 }
                 catch (Exception ex)
