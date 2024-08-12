@@ -1,6 +1,6 @@
 ﻿namespace ArrayMinElement
 {
-    internal class Helpers
+    public class Helpers
     {
         public static int GetMinElement(int[] numbers)
         {
